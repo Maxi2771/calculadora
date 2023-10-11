@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/kodez.jpeg" type="image/x-icon">
+    <title>Calculadora</title>
+</head>
+<body>
+    <form>
+        <input class="mostrar" type="text" id="res" autocomplete="off">
+    <div class="fila">    
+        <input class="operador" type="button" value="0" onclick="mostrarOperador(0)">
+        <input class="operador" type="button" value="1" onclick="mostrarOperador(1)">
+        <input class="operador" type="button" value="2" onclick="mostrarOperador(2)">
+    </div>
+    <div class="fila">
+        <input class="operador" type="button" value="3" onclick="mostrarOperador(3)">
+        <input class="operador" type="button" value="4" onclick="mostrarOperador(4)">
+        <input class="operador" type="button" value="5" onclick="mostrarOperador(5)">
+    </div>
+    <div class="fila">
+        <input class="operador" type="button" value="6" onclick="mostrarOperador(6)">
+        <input class="operador" type="button" value="7" onclick="mostrarOperador(7)">
+        <input class="operador" type="button" value="8" onclick="mostrarOperador(8)">
+    </div>
+    <div class="fila">
+        <input class="operador" type="button" value="9" onclick="mostrarOperador(9)">
+        <input class="operador" type="button" value="+" onclick="mostrarOperador('+')">
+        <input class="operador" type="button" value="-" onclick="mostrarOperador('-')">
+    </div>
+    <div class="fila">
+        <input class="operador" type="button" value="/" onclick="mostrarOperador('/')">
+        <input class="operador" type="button" value="*" onclick="mostrarOperador('*')">
+        <input class="operador" type="button" value="sin" onclick="calcularFuncion('sin')">
+    </div>
+    <div class="fila">
+        <input class="operador" type="button" value="cos" onclick="calcularFuncion('cos')">
+        <input class="operador" type="button" value="tan" onclick="calcularFuncion('tan')">
+        <input class="operador" type="button" value="(" onclick="mostrarOperador('(')">
+    </div>
+    <div class="fila">
+        <input class="operador" type="button" value=")" onclick="mostrarOperador(')')">
+        <input class="operador" type="button" value="°/r" onclick="toggleUnidades()">
+        <input class="operador" type="button" value="=" onclick="resolver()">
+    </div>
+    </form>      
+</body>
+</html>
+<script src="js/script.js"></script>

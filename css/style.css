@@ -1,0 +1,60 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to right, #050537, #040c49, #0c0d5b, #1a0b6d, #2a057e);
+}
+
+form {
+  background-color: black;
+  position: relative;
+  top: 100px;
+  width: 500px;
+  height: 700px;
+  border: 5px solid white;
+  border-radius: 50px;
+  box-shadow: 5px 5px #002383;
+}
+
+.mostrar {
+  width: 400px;
+  height: 100px;
+  position: relative;
+  top: 10px;
+  left: 50px;
+  border-radius: 50px;
+  border: 5px solid #002383;
+  font-size: 2.5em;
+  text-align: center;
+}
+
+.fila {
+  position: relative;
+  top: 20px;
+  left: 110px;
+  float: left;
+  margin-right: 10px;
+}
+
+.operador {
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
+  border: 5px solid rgb(13, 0, 133);
+  background-color: #ffffff;
+  font-size: 2.5em;
+  text-align: center;
+}
+
+.operador:hover {
+  cursor: pointer;
+  background-color: #999999;
+}
+
+/*# sourceMappingURL=style.css.map */
